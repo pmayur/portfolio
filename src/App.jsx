@@ -1,5 +1,6 @@
 import Navigator    from "./components/navigation/Navigator";
 import View         from "./components/views/View";
+import Me           from "./components/me/Me"
 
 import { MemoryRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -14,7 +15,7 @@ function App() {
                 <Switch>
                     <Route
                         exact path="/"
-                        component={() => <View name="me" />}
+                        component={() => <Me />}
                     />
                     <Route
                         path="/work"
@@ -33,6 +34,8 @@ function App() {
                         component={() => <View name="about" />}
                     />
                 </Switch>
+
+                <div></div>
             </div>
         </Router>
     );
