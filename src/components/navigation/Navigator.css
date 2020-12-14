@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 
 #navigator {
     width: fit-content;
@@ -15,7 +15,7 @@
 .link {
     padding: 5px;
     text-decoration: none;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 20px;
     transition: 0.2s;
     color: black;
@@ -25,4 +25,10 @@
 .link:hover {
     font-size: 25px;
     padding: 5px;
+}
+
+@media only screen and (max-width: 768px) {
+    #navigator {
+        display: none;
+    }
 }
