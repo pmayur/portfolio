@@ -1,14 +1,30 @@
+import { Link } from "react-router-dom";
+
 import "./Navigator.css";
 
 export default function Navigator() {
     return (
         <div id="navigator">
             <div id="list">
-                <div>i am</div>
-                <div>work</div>
-                <div>education</div>
-                <div>projects</div>
-                <div>about me</div>
+                <Link to="/">
+                    <div>i am</div>
+                </Link>
+
+                <Link to="/work">
+                    <div>work</div>
+                </Link>
+
+                <Link to="/education">
+                    <div>education</div>
+                </Link>
+
+                <Link to="/projects">
+                    <div>projects</div>
+                </Link>
+
+                <Link to="/aboutme">
+                    <div>about me</div>
+                </Link>
             </div>
         </div>
     );

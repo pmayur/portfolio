@@ -1,15 +1,13 @@
 #navigator {
-    width: 33%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-end;
+    width: fit-content;
+    margin-left: auto;
 }
 
 #list {
-    height: 40%;
+    position: relative;
+    top: 33%;
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    justify-content: center;
 }
