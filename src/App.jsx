@@ -2,6 +2,7 @@ import Navigator    from "./components/navigation/Navigator";
 import View         from "./components/views/View";
 import Me           from "./components/me/Me"
 import Work         from "./components/work/Work"
+import Education    from "./components/education/Education"
 
 import { MemoryRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -24,7 +25,7 @@ function App() {
                     />
                     <Route
                         path="/education"
-                        component={() => <View name="education" />}
+                        component={() => <Education />}
                     />
                     <Route
                         path="/projects"
