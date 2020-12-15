@@ -9,7 +9,7 @@ export default function Navigator() {
         <div id="navigator">
             <div id="link-list">
                 <Link to="/" style={TEXTDECOR}>
-                    <div className="link">i am</div>
+                    <div className="link">about</div>
                 </Link>
 
                 <Link to="/work" style={TEXTDECOR}>
@@ -22,10 +22,6 @@ export default function Navigator() {
 
                 <Link to="/projects" style={TEXTDECOR}>
                     <div className="link">projects</div>
-                </Link>
-
-                <Link to="/aboutme" style={TEXTDECOR}>
-                    <div className="link">about me</div>
                 </Link>
             </div>
         </div>

@@ -3,7 +3,6 @@ import Me           from "./components/me/Me"
 import Work         from "./components/work/Work"
 import Education    from "./components/education/Education"
 import Projects     from "./components/projects/Projects"
-import About        from "./components/about/About"
 
 import { MemoryRouter as Router, Switch, Route } from "react-router-dom";
 
@@ -31,10 +30,6 @@ function App() {
                     <Route
                         path="/projects"
                         component={() => <Projects />}
-                    />
-                    <Route
-                        path="/aboutme"
-                        component={() => <About />}
                     />
                 </Switch>
 
