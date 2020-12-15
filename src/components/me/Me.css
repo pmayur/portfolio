@@ -9,19 +9,25 @@
 
 #heading {
     text-align: center;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
 }
 
 #name {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 11vmin;
 }
 
 #desig {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "Ubuntu", sans-serif;
     font-size: 4vmin;
 }
 
-h1, h2 {
+h1,
+h2 {
     margin: 0px;
+}
+
+.icons {
+    height: 30px;
+    padding: 5px;
 }
