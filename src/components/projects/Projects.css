@@ -5,3 +5,20 @@
     justify-content: center;
     align-items: center;
 }
+
+.project {
+    margin: 25px 0px;
+}
+
+.project-section {
+    margin: 0px 0px;
+}
+
+.project-title {
+    margin: 2px 0px;
+}
+
+.project-desc {
+    margin: 0px;
+    font-weight: 100;
+}
