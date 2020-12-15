@@ -9,10 +9,10 @@ export default function Me() {
             </div>
             <div id="skill">
                 <h3>
-                    likes building applications with express, react, mongodb
+                    likes building applications with express, react, mongo
                 </h3>
                 <h3>
-                    have worked on java, ruby, rails, flutter
+                    also comfortable with java, ruby, rails, flutter
                 </h3>
             </div>
         </div>

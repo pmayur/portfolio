@@ -15,7 +15,7 @@
 
 #name {
     font-family: "Ubuntu", sans-serif;
-    font-size: 7vmin;
+    font-size: 4vmax;
 }
 
 #desig {
@@ -31,9 +31,26 @@ h1 {
     height: 30px;
     padding: 5px;
 }
+
 #skill > h3{
     text-align: center;
     font-weight: 300;
     letter-spacing: 2px;
-    font-size: 1vw;
+    font-size: 1vmax;
+}
+
+@media only screen and (max-width: 768px) {
+    #name {
+        font-size: 6vmax;
+    }
+
+    #desig {
+        font-size: 3vmax;
+    }
+
+    #skill > h3{
+        font-size: 2vmax;
+        letter-spacing: 1px;
+        padding: 0px 20px;
+    }
 }
