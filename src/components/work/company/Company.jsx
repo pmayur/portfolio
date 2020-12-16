@@ -3,6 +3,7 @@ import "./Company.css";
 export default function Company(props) {
     const TITLE = props.company.TITLE;
     const COMPANY = props.company.COMPANY;
+    const SITE = props.company.SITE;
     const DESC = props.company.DESC;
     const DATE = props.company.DATE;
 
@@ -13,7 +14,10 @@ export default function Company(props) {
     return (
         <div id="section">
             <h2 id="work-title">
-                {TITLE +" @ " + COMPANY}
+                {TITLE +" @ "}
+                <a href={SITE} target="_blank" rel="noopener noreferrer">
+                    <span className="company-name">{COMPANY}</span>
+                </a>
             </h2>
             <h3 id="desc">
                 {DESC}
