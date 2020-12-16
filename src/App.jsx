@@ -5,7 +5,7 @@ import Education    from "./components/education/Education"
 import Projects     from "./components/projects/Projects"
 import Links        from "./components/links/Links"
 
-import { MemoryRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { MemoryRouter as Router, Switch, Route } from "react-router-dom";
 
 import "./App.css";
 
@@ -13,7 +13,10 @@ function App() {
     return (
         <Router>
             <div className="App">
-                <Navigator />
+
+                <div id="navig-container">
+                    <Navigator />
+                </div>
 
                 <Switch>
                     <Route

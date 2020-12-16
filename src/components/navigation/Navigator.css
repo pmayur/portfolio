@@ -2,13 +2,12 @@
 
 #navigator {
     width: fit-content;
+    height: fit-content;
     margin-left: auto;
     text-decoration: none;
 }
 
 #link-list {
-    position: relative;
-    top: 33%;
     text-align: end;
 }
 

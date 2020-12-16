@@ -15,6 +15,11 @@
     align-items: center;
 }
 
+#navig-container {
+    position: relative;
+    top: 33%;
+}
+
 @media only screen and (max-width: 768px) {
     .App {
         display: block;
