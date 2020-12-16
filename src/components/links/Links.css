@@ -12,3 +12,12 @@
     display: inline-block;
     position: relative;
 }
+
+
+@media only screen and (max-width: 768px) {
+    .links-icon {
+        height: 1.7em;
+        padding: 2vmin;
+    }
+}
+

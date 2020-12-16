@@ -5,7 +5,7 @@ import { MONKEYCHAI, ECW, HASURA } from "./../../util/text";
 export default function Work() {
     return (
         <div id="work-container">
-            <div id="container">
+            <div id="work">
                 <Company company={MONKEYCHAI} />
 
                 <br />
