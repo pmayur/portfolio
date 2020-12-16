@@ -36,65 +36,49 @@ const HASURA = {
 const BACKEND = [
     {
         TITLE: "URL Shortener Microservice",
-        DESC: [
-            "built with express using mongodb as a database",
-            "returns a random string which redirects to the url passed",
-        ],
+        DESC:
+            "a microservice using express and mongoose similar to tinyurl returns a short string, which passed as a param redirects to the original url",
     },
     {
         TITLE: "Anonymous Message Board",
-        DESC: [
-            "test driven development using express, mongoose and chai",
-            "users can create threads in any board and reply to the threads",
-        ],
+        DESC:
+            "used express and mongo and chai for testing to create a messaging board where anonymous users can create threads within boards and post replies, similar to anonymous image board 4chan",
     },
     {
         TITLE: "Issue Tracker Microservice",
-        DESC: [
-            "test driven development using express, mongoose and chai",
-            "users can create tasks with details and assign it to other users",
-        ],
+        DESC:
+            "used express and mongo, following a test driven approach to create a service which creates and stores tasks which can be assigned to users",
     },
 ];
 
 const FRONTEND = [
     {
         TITLE: "Redux React Calculator",
-        DESC: [
-            "built with react for front end and redux as state management",
-            "performs all basic operations using formula logic",
-        ],
+        DESC:
+            "used redux for state management along with react to create a calculator performing operations with formula logic",
     },
     {
         TITLE: "React Pomodoro clock",
-        DESC: [
-            "built with react for front end and redux as state management",
-            "ability to set times with breaks in between",
-        ],
+        DESC:
+            "a pomodoro clock to keep track of sessions with breaks in between using react and redux",
     },
     {
         TITLE: "Choropleth map for data visualization",
-        DESC: [
-            "used javascript d3 library to display a choropleth",
-            "used open source data to create US map and visualized data about no of graduates in US",
-        ],
+        DESC:
+            "created a choropleth map using D3 JS for visualizing % of graduates per county in the US using openly available maps and data",
     },
 ];
 
 const ANDROID = [
     {
         TITLE: "Crypto Currency portfolio tracker",
-        DESC: [
-            "used flutter and firebase along with third party api to keep track of cryto currency prices",
-            "authenticated users can create a porfolio of currencies and keep track of prices",
-        ],
+        DESC:
+            "authenticated users can create a portfolio of crypto currencies to keep track of prices, used flutter along with firebase for the app and third party API's for querying crypto prices",
     },
     {
         TITLE: "Habits tracker",
-        DESC: [
-            "used react native to develop the application",
-            "users can create daily recurring tasks and perform mark complete / delete operations",
-        ],
+        DESC:
+            "users can create recurring tasks and mark them complete, delete, postpone etc, used React Native for development",
     },
 ];
 
