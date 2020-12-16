@@ -18,10 +18,15 @@
 #navig-container {
     position: relative;
     top: 33%;
+    text-align: end;
 }
 
 @media only screen and (max-width: 768px) {
     .App {
         display: block;
+    }
+
+    #navig-container {
+        display: none;
     }
 }

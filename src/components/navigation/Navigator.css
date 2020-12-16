@@ -7,10 +7,6 @@
     text-decoration: none;
 }
 
-#link-list {
-    text-align: end;
-}
-
 .link {
     padding: 5px;
     text-decoration: none;
@@ -25,10 +21,4 @@
 .link:hover {
     font-size: 25px;
     padding: 5px;
-}
-
-@media only screen and (max-width: 768px) {
-    #navigator {
-        display: none;
-    }
 }
