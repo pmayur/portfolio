@@ -32,8 +32,7 @@ const createProjectList = (list) => {
         return (
             <div key={index}>
                 <h4 className="project-title">{project.TITLE}</h4>
-                <p className="project-desc">{project.DESC[0]}</p>
-                <p className="project-desc">{project.DESC[1]}</p>
+                <p className="project-desc">{project.DESC}</p>
             </div>
         );
     });
