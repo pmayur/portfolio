@@ -31,7 +31,12 @@ const createProjectList = (list) => {
     return list.map((project, index) => {
         return (
             <div key={index}>
-                <h4 className="project-title">{project.TITLE}</h4>
+                <h4 className="project-title">{project.TITLE}
+
+                <a href={project.SITE} target="_blank" rel="noopener noreferrer" className="project-link">
+                    link
+                </a>
+                </h4>
                 <p className="project-desc">{project.DESC}</p>
             </div>
         );
