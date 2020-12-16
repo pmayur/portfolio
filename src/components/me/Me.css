@@ -37,6 +37,7 @@ h1 {
     font-weight: 300;
     letter-spacing: 2px;
     font-size: 1vmax;
+    margin: 10px 0px;
 }
 
 @media only screen and (max-width: 768px) {
