@@ -1,0 +1,14 @@
+.links-icon {
+    height: 2em;
+    padding: 1.1vmin;
+    transition: 0.2s;
+}
+
+.links-icon:hover {
+    height: 2.4em;
+}
+
+.link-element {
+    display: inline-block;
+    position: relative;
+}
