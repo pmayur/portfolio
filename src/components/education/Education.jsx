@@ -6,10 +6,16 @@ export default function Education() {
             <div id="education">
 
                 <h2 id="education-title">Full Stack Developer Certification</h2>
-                <h3 id="education-desc">FreeCodeCamp</h3>
+                <h3 id="education-desc">
+                    FreeCodeCamp
+
+                    <a href="https://www.freecodecamp.org/certification/pmay/full-stack" target="_blank" rel="noopener noreferrer">
+                        <span id="edu-certificate">(view certificate)</span>
+                    </a>
+                </h3>
                 <div>
                     <p className="education-para">
-                        Open Source Curriculum comprising of 6 Certifications
+                        Open Source Curriculum divided in 6 Certifications
                         covering different aspects of development
                     </p>
                     <p className="education-para">
