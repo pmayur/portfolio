@@ -1,0 +1,23 @@
+#hamburger-menu-container {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+}
+
+#hamburger-icon-wrapper {
+    height: 40px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#hamburger-icon {
+    height: 30px;
+}
+
+#navig-menu-wrapper {
+    background-color: rgb(255,255,255, 0.9);
+    border-radius: 7px;
+}
