@@ -3,8 +3,9 @@ import Me           from "./components/me/Me"
 import Work         from "./components/work/Work"
 import Education    from "./components/education/Education"
 import Projects     from "./components/projects/Projects"
+import Links        from "./components/links/Links"
 
-import { MemoryRouter as Router, Switch, Route } from "react-router-dom";
+import { MemoryRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import "./App.css";
 
@@ -21,7 +22,7 @@ function App() {
                     />
                     <Route
                         path="/work"
-                        component={() => <Work/>}
+                        component={() => <Work />}
                     />
                     <Route
                         path="/education"
@@ -34,6 +35,9 @@ function App() {
                 </Switch>
 
                 <div></div>
+            </div>
+            <div id="social-links">
+                <Links />
             </div>
         </Router>
     );

@@ -5,6 +5,16 @@
     grid-template-columns: 3fr 8fr 3fr;
 }
 
+#social-links {
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media only screen and (max-width: 768px) {
     .App {
         display: block;
