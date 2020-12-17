@@ -19,5 +19,9 @@
         height: 1.7em;
         padding: 2vmin;
     }
+
+    .links-icon:hover {
+        height: 2em;
+    }
 }
 
