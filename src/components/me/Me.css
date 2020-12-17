@@ -16,10 +16,12 @@
 #name {
     font-family: "Ubuntu", sans-serif;
     font-size: 4vmax;
+    font-weight: 500;
 }
 
 #desig {
     font-family: "Ubuntu", sans-serif;
+    font-weight: 500;
     font-size: 2.4vmin;
 }
 
@@ -35,7 +37,7 @@ h1 {
 #skill > h3{
     text-align: center;
     font-weight: 300;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     font-size: 1vmax;
     margin: 10px 0px;
 }
