@@ -5,6 +5,7 @@
     height: 100vh;
     display: grid;
     grid-template-columns: 3fr 8fr 3fr;
+    overflow: hidden;
 }
 
 #social-links {
