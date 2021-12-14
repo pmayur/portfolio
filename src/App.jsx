@@ -14,12 +14,12 @@ function App() {
     return (
         <Router>
             <div id="hamburger">
-                <HamburgerMenu />
+                {/* <HamburgerMenu / */}
             </div>
             <div className="App">
 
                 <div id="navig-container">
-                    <Navigator />
+                    {/* <Navigator /> */}
                 </div>
 
                 <Switch>
